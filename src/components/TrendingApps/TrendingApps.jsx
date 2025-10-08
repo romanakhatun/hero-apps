@@ -1,7 +1,10 @@
 import { Link } from "react-router";
 import AppCard from "../AppCard/AppCard";
 
-const TrendingApps = () => {
+const TrendingApps = ({ appsData }) => {
+  const topApps = appsData
+    .sort((a, b) => b.ratingAvg - a.ratingAvg)
+    .slice(0, 8);
   return (
     <section className="my-20 px-5 max-w-[1420px] mx-auto">
       <div className="text-center">
@@ -11,12 +14,16 @@ const TrendingApps = () => {
         </p>
       </div>
 
-      <AppCard />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        {topApps.map((app) => (
+          <AppCard key={app.id} app={app} />
+        ))}
+      </div>
 
       <div className="flex justify-center mt-10">
         <Link
           to="/apps"
-          className="btn bg-gradient text-white font-semibold py-4 px-6 rounded-sm text-[16px]"
+          className="btn bg-gradient text-white font-semibold py-4 px-6 rounded-sm text-[16px] transition-all duration-300  hover:-translate-y-1"
         >
           Show All
         </Link>

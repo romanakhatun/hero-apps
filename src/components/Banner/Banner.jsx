@@ -19,7 +19,7 @@ const Banner = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn flex items-center py-6 px-6 text-[#001931] text-xl">
+          <button className="btn flex items-center py-6 px-6 text-[#001931] text-xl bg-transparent border border-[#D2D2D2] shadow-none transition-all duration-300  hover:-translate-y-1">
             <img
               className="w-[32px] h-[32px]"
               src={googlePlay}
@@ -33,7 +33,7 @@ const Banner = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn flex items-center py-6 px-6 text-[#001931] text-xl">
+          <button className="btn flex items-center py-6 px-6 text-[#001931] text-xl bg-transparent border border-[#D2D2D2] shadow-none transition-all duration-300  hover:-translate-y-1">
             <img className="w-[32px] h-[32px]" src={appStore} alt="App Store" />
             App Store
           </button>

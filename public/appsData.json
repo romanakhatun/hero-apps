@@ -1,14 +1,14 @@
 [
   {
-    "image": "https://play-lh.googleusercontent.com/NWRVVF6zXvmcqspJwdFOKcQG6OlsNwpMOxED_DgB6B2BBDeWwAeWZKZxGhgqU0LQVJU",
+    "image": "https://play-lh.googleusercontent.com/NWRVVF6zXvmcqspJwdFOKcQG6OlsNwpMOxED_DgB6B2BBDeWwAeWZKZxGhgqU0LQVJU=w240-h480-rw",
     "title": "Forest: Focus for Productivity",
     "companyName": "SeekrTech",
     "id": 1,
     "description": "Stay focused and plant trees as you avoid distractions and build better work habits.",
     "size": 32,
     "reviews": 98000,
-    "ratingAvg": 4.8,
-    "downloads": 10000000,
+    "ratingAvg": 5.0,
+    "downloads": "1M",
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 3000 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/6yT8JfjY4ESEu69QpxHxjhyVhIoPgpbol1t4hEgfiBcGP0gy35ez0NvxyARrq5VPcGU",
+    "image": "https://play-lh.googleusercontent.com/6yT8JfjY4ESEu69QpxHxjhyVhIoPgpbol1t4hEgfiBcGP0gy35ez0NvxyARrq5VPcGU=w240-h480-rw",
     "title": "SmPlan: ToDo List with Reminder",
     "companyName": "SmSoft Labs",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 18,
     "reviews": 24500,
     "ratingAvg": 4.6,
-    "downloads": 5000000,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1200 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/k0p0PlV3iitTUJaBk4P2NWiMHcAKrI7gB0ap7b9sIVCcKvE9RT6MTLf1Fr5oOUMQ1nFc",
+    "image": "https://play-lh.googleusercontent.com/k0p0PlV3iitTUJaBk4P2NWiMHcAKrI7gB0ap7b9sIVCcKvE9RT6MTLf1Fr5oOUMQ1nFc=w240-h480-rw",
     "title": "FLIP: Focus Timer for Study",
     "companyName": "Rinasoft",
     "id": 3,
@@ -44,7 +44,7 @@
     "size": 45,
     "reviews": 68000,
     "ratingAvg": 4.7,
-    "downloads": 15000000,
+    "downloads": "15M",
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 3000 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/2-coFiL20JMqVh6mWWyn1ZpkOxn90NGYkLSvj5lxlk6yBBucC5LpcLS0G_pq3xG8owbN",
+    "image": "https://play-lh.googleusercontent.com/2-coFiL20JMqVh6mWWyn1ZpkOxn90NGYkLSvj5lxlk6yBBucC5LpcLS0G_pq3xG8owbN=w240-h480-rw",
     "title": "Pomocat: Cute Pomodoro Timer",
     "companyName": "Studio Catify",
     "id": 4,
@@ -62,7 +62,7 @@
     "size": 27,
     "reviews": 9500,
     "ratingAvg": 4.5,
-    "downloads": 2000000,
+    "downloads": "200K",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -80,7 +80,7 @@
     "size": 30,
     "reviews": 22500,
     "ratingAvg": 4.4,
-    "downloads": 3000000,
+    "downloads": "300K",
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1300 },
@@ -98,31 +98,13 @@
     "size": 22,
     "reviews": 10500,
     "ratingAvg": 4.6,
-    "downloads": 2000000,
+    "downloads": "200K",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 700 },
       { "name": "3 star", "count": 1100 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 5800 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/Dp9w3L54TBZgWPB1auw22DQ7Dgzj-6iceKy_A2KgSqpbEoFKIo__WCqLxHyfDl2pZ0s",
-    "title": "Focus Plant: Pomodoro Forest",
-    "companyName": "Shikudo Studio",
-    "id": 7,
-    "description": "Grow cute plants by staying focused and earning raindrops for productivity.",
-    "size": 72,
-    "reviews": 33000,
-    "ratingAvg": 4.7,
-    "downloads": 10000000,
-    "ratings": [
-      { "name": "1 star", "count": 1100 },
-      { "name": "2 star", "count": 1600 },
-      { "name": "3 star", "count": 2800 },
-      { "name": "4 star", "count": 6400 },
-      { "name": "5 star", "count": 21000 }
     ]
   },
   {
@@ -134,7 +116,7 @@
     "size": 90,
     "reviews": 95000,
     "ratingAvg": 4.8,
-    "downloads": 30000000,
+    "downloads": "30M",
     "ratings": [
       { "name": "1 star", "count": 3200 },
       { "name": "2 star", "count": 4000 },
@@ -152,7 +134,7 @@
     "size": 35,
     "reviews": 8800,
     "ratingAvg": 4.4,
-    "downloads": 1700000,
+    "downloads": "1.7M",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 600 },
@@ -170,7 +152,7 @@
     "size": 40,
     "reviews": 5600,
     "ratingAvg": 4.3,
-    "downloads": 1500000,
+    "downloads": "1.5M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -189,7 +171,7 @@
     "size": 31,
     "reviews": 9200,
     "ratingAvg": 4.6,
-    "downloads": 2200000,
+    "downloads": "2.2M",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 600 },
@@ -207,7 +189,7 @@
     "size": 25,
     "reviews": 13400,
     "ratingAvg": 4.5,
-    "downloads": 4000000,
+    "downloads": "4M",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 800 },
@@ -225,7 +207,7 @@
     "size": 38,
     "reviews": 9100,
     "ratingAvg": 4.4,
-    "downloads": 2500000,
+    "downloads": "2.5M",
     "ratings": [
       { "name": "1 star", "count": 350 },
       { "name": "2 star", "count": 600 },
@@ -243,7 +225,7 @@
     "size": 14,
     "reviews": 4100,
     "ratingAvg": 4.2,
-    "downloads": 800000,
+    "downloads": "800K",
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 200 },
@@ -261,7 +243,7 @@
     "size": 47,
     "reviews": 5600,
     "ratingAvg": 4.5,
-    "downloads": 1400000,
+    "downloads": "1.4M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 350 },
@@ -279,7 +261,7 @@
     "size": 24,
     "reviews": 6700,
     "ratingAvg": 4.6,
-    "downloads": 2500000,
+    "downloads": "25M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -297,7 +279,7 @@
     "size": 29,
     "reviews": 4200,
     "ratingAvg": 4.6,
-    "downloads": 900000,
+    "downloads": "900K",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 200 },
@@ -315,7 +297,7 @@
     "size": 36,
     "reviews": 8900,
     "ratingAvg": 4.7,
-    "downloads": 1800000,
+    "downloads": "1.8M",
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 400 },

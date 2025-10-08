@@ -10,7 +10,7 @@ const Navbar = () => {
     { to: "/installation", label: "Installation" },
   ];
   return (
-    <div className=" border-b border-[#e9e9e9]">
+    <header className=" border-b border-[#e9e9e9] bg-white">
       <div className="navbar py-4 px-5 max-w-[1420px] mx-auto">
         <div className="navbar-start flex items-center gap-6">
           <div className="dropdown">
@@ -74,7 +74,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
