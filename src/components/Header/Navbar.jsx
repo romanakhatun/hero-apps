@@ -45,7 +45,7 @@ const Navbar = () => {
             className="font-bold text-2xl text-gradient flex items-center gap-1"
           >
             <img className="w-[40px] h-[40px]" src={logo} alt="HERO.IO" />
-            <span>HERO.IO</span>
+            <span className="hidden sm:block">HERO.IO</span>
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
