@@ -1,0 +1,327 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/NWRVVF6zXvmcqspJwdFOKcQG6OlsNwpMOxED_DgB6B2BBDeWwAeWZKZxGhgqU0LQVJU",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "SeekrTech",
+    "id": 1,
+    "description": "Stay focused and plant trees as you avoid distractions and build better work habits.",
+    "size": 32,
+    "reviews": 98000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 73000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/6yT8JfjY4ESEu69QpxHxjhyVhIoPgpbol1t4hEgfiBcGP0gy35ez0NvxyARrq5VPcGU",
+    "title": "SmPlan: ToDo List with Reminder",
+    "companyName": "SmSoft Labs",
+    "id": 2,
+    "description": "A minimal yet powerful to-do list and task reminder app for daily planning.",
+    "size": 18,
+    "reviews": 24500,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 15500 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/k0p0PlV3iitTUJaBk4P2NWiMHcAKrI7gB0ap7b9sIVCcKvE9RT6MTLf1Fr5oOUMQ1nFc",
+    "title": "FLIP: Focus Timer for Study",
+    "companyName": "Rinasoft",
+    "id": 3,
+    "description": "Track your study sessions using the Pomodoro technique with detailed analytics.",
+    "size": 45,
+    "reviews": 68000,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 49000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/2-coFiL20JMqVh6mWWyn1ZpkOxn90NGYkLSvj5lxlk6yBBucC5LpcLS0G_pq3xG8owbN",
+    "title": "Pomocat: Cute Pomodoro Timer",
+    "companyName": "Studio Catify",
+    "id": 4,
+    "description": "Adorable cat-themed Pomodoro timer that helps you study with motivation.",
+    "size": 27,
+    "reviews": 9500,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/hG81wXwHp6IDKf0GL6wojORaoRV4c78wLwV8RlGhW5Ace5FvYt8jO1Y0lX4tSLbTQw=w240-h480-rw",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "Time Solutions",
+    "id": 5,
+    "description": "Plan your daily schedule with time-blocking, goals, and smart reminders.",
+    "size": 30,
+    "reviews": 22500,
+    "ratingAvg": 4.4,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 12700 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/kfpAxLPDEfpr3-uMNfHy8Xf4EmQZ-GvqhnOlytzM90j-3phnjAuHVreoo_ldEA8QGA=w240-h480-rw",
+    "title": "Morning Habits – Daily Routine",
+    "companyName": "Habitify Studio",
+    "id": 6,
+    "description": "Start your day strong with custom routines and habit tracking tools.",
+    "size": 22,
+    "reviews": 10500,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Dp9w3L54TBZgWPB1auw22DQ7Dgzj-6iceKy_A2KgSqpbEoFKIo__WCqLxHyfDl2pZ0s",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Shikudo Studio",
+    "id": 7,
+    "description": "Grow cute plants by staying focused and earning raindrops for productivity.",
+    "size": 72,
+    "reviews": 33000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/gXJLTDIvxXTK6uKl2e3Od_zmrlEul1CbkgxWxjbGeDzLl4EMFsdfER2VEgqAue2v1TE=s256-rw",
+    "title": "Alarmy – Alarm Clock & Sleep",
+    "companyName": "Delight Room",
+    "id": 8,
+    "description": "The world’s most annoying alarm clock that guarantees you’ll wake up.",
+    "size": 90,
+    "reviews": 95000,
+    "ratingAvg": 4.8,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 67800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/dyDY8HZI-046cHLzNUsRXBKjHwVqQvVuz9vPd_AC4J-prycaDMKJ-wqM9njIFQ4tjP8=w240-h480-rw",
+    "title": "FocusHub – Study Timer",
+    "companyName": "Brainify Apps",
+    "id": 9,
+    "description": "Track study sessions and block distractions with FocusHub Pomodoro.",
+    "size": 35,
+    "reviews": 8800,
+    "ratingAvg": 4.4,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jrabMRrFu4dz7682h6RGBl74fltRco-EJ539rKaudyEpv4AtScZD6ppIhD1QNvyKpw=w240-h480-rw",
+    "title": "Daily Focus – Productivity Timer",
+    "companyName": "Focus Labs",
+    "id": 11,
+    "description": "Boost focus and track productivity with customizable Pomodoro sessions.",
+    "size": 40,
+    "reviews": 5600,
+    "ratingAvg": 4.3,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3400 }
+    ]
+  },
+
+  {
+    "image": "https://play-lh.googleusercontent.com/3kmG7GBEk_r5cq2ean-qBnty_e0lGaJMjZbWCRP4PCIi8XIVACdMLLK6wsC7JtbOgQ=w240-h480-rw",
+    "title": "PomoTree – Focus & Grow",
+    "companyName": "GreenMind Apps",
+    "id": 13,
+    "description": "Stay focused and grow virtual trees with every completed Pomodoro session.",
+    "size": 31,
+    "reviews": 9200,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/3JBinkL_9vzjOIqIxJHMUC7Q5nNmFCAxu4TpyyZH0MYIxJF-MiVFu1cqkInsRYrvx7M=w240-h480-rw",
+    "title": "MyDay – Daily Planner",
+    "companyName": "Bright Tools",
+    "id": 14,
+    "description": "Your all-in-one daily schedule planner with calendar and reminders.",
+    "size": 25,
+    "reviews": 13400,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/E5cHaJgqR50DeYkflh0Q9ZRctKy6k1Ulm9QtqpdC_x1AMAQ6IEuD0RYt2lOIWN5u42M=w240-h480-rw",
+    "title": "Focus Meter – Time Tracker",
+    "companyName": "Idea Catalyst",
+    "id": 15,
+    "description": "Analyze your focus sessions with charts, insights, and weekly reports.",
+    "size": 38,
+    "reviews": 9100,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 4850 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/NanvN1TNxB-LPJRXbXCUlyW6CFlOmSOUgxZf5h8vYCmkE8PUeoSckA-w8nNjkLya_d4=w240-h480-rw",
+    "title": "Simplist – Minimal ToDo",
+    "companyName": "Simple Tech",
+    "id": 16,
+    "description": "A distraction-free to-do list app built for simplicity and speed.",
+    "size": 14,
+    "reviews": 4100,
+    "ratingAvg": 4.2,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2080 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/yIcPtJlSetpKK-hrH6Q72jskfBEaBWCw8LpFtFEXgPIuH6YYt2MlOpuflWgp-D9l1ysm=w240-h480-rw",
+    "title": "WorkBuddy – Focus Together",
+    "companyName": "MindCircle",
+    "id": 17,
+    "description": "Virtual coworking space app to focus with others in real time.",
+    "size": 47,
+    "reviews": 5600,
+    "ratingAvg": 4.5,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2450 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/2U9sU5sKuKsHtNG5Z5x7c8hxMtf-jF4uDyGHtw5v5eRnmqtPn4q635DJi-MuQOEp52A=w240-h480-rw",
+    "title": "Daily Goals Tracker",
+    "companyName": "GoalFlow",
+    "id": 18,
+    "description": "Set, track, and complete your goals with streaks and rewards.",
+    "size": 24,
+    "reviews": 6700,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/nyw-T9VA_ycn4-fpNGMHHNrW_LrZpBYrKsHzlzpSQFzsIwag1Fe4fxIgA8ckGDqwZOw=w240-h480-rw",
+    "title": "Study Cat – Focus Pomodoro",
+    "companyName": "CuteDev Studio",
+    "id": 19,
+    "description": "Focus with cute animated cats cheering you during Pomodoro sessions.",
+    "size": 29,
+    "reviews": 4200,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2400 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/-v-z8AiO2GydaZWMpRTr0MQ4BDs6C326UBLYZ9KXJsP7Fdtf2vbF0cBcoG31lY9S2A=w240-h480-rw",
+    "title": "ZenFocus – Study & Relax",
+    "companyName": "Calmify Apps",
+    "id": 20,
+    "description": "Stay productive with focus music, Pomodoro sessions, and calm themes.",
+    "size": 36,
+    "reviews": 8900,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5350 }
+    ]
+  }
+]
