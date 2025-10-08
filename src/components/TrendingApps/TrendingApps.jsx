@@ -16,7 +16,9 @@ const TrendingApps = ({ appsData }) => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {topApps.map((app) => (
-          <AppCard key={app.id} app={app} />
+          <Link key={app.id} to={`/apps/${app.id}`}>
+            <AppCard app={app} />
+          </Link>
         ))}
       </div>
 
