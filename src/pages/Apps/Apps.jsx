@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { Link, useLoaderData } from "react-router";
 import { CiSearch } from "react-icons/ci";
 import AppCard from "../../components/AppCard/AppCard";
@@ -10,6 +10,10 @@ const Apps = () => {
   const filteredData = appsData.filter((item) =>
     item.title.toLowerCase().includes(searchVal.toLowerCase())
   );
+
+  const handleReset = () => {
+    setSearchVal("");
+  };
 
   return (
     <section className="my-20 px-5 max-w-[1420px] mx-auto">
@@ -36,13 +40,27 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
-        {filteredData.map((app) => (
-          <Link key={app.id} to={`/apps/${app.id}`}>
-            <AppCard app={app} />
-          </Link>
-        ))}
-      </div>
+      {filteredData.length !== 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
+          {filteredData.map((app) => (
+            <Link key={app.id} to={`/apps/${app.id}`}>
+              <AppCard app={app} />
+            </Link>
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-col justify-center items-center my-20">
+          <h1 className="text-[#001931] font-bold text-5xl mb-4">
+            App not found
+          </h1>
+          <button
+            onClick={() => handleReset()}
+            className="btn bg-gradient text-white font-semibold py-4 px-6 rounded-sm text-[16px] transition-all duration-300  hover:-translate-y-1"
+          >
+            Show All Apps
+          </button>
+        </div>
+      )}
     </section>
   );
 };
