@@ -11,9 +11,7 @@ const InstallCard = ({ app, handleRemoveInstApps }) => {
           <img className="h-[80px] rounded-lg" src={image} alt={title} />
         </figure>
         <div>
-          <h3 className="text-[#001931] text-xl">
-            Forest: Focus for Productivity
-          </h3>
+          <h3 className="text-[#001931] text-xl">{title}</h3>
           <div className="flex justify-center md:justify-normal gap-4 mt-4">
             <div className="flex items-center text-[#00D390] gap-1 font-medium">
               <FiDownload />

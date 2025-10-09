@@ -1,6 +1,6 @@
 # Hero Apps
 
-#### Hero Apps create with React, TailwindCSS, daisyUI
+#### Technologies: React, TailwindCSS, daisyUI
 
 ### Main Featured:
 

@@ -1,18 +1,30 @@
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Link, useLoaderData } from "react-router";
 import { CiSearch } from "react-icons/ci";
 import AppCard from "../../components/AppCard/AppCard";
 
 const AllApps = () => {
   const appsData = useLoaderData();
+  const [filteredData, setFilteredData] = useState(appsData);
   const [searchVal, setSearchVal] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
-  const filteredData = appsData.filter((item) =>
-    item.title.toLowerCase().includes(searchVal.toLowerCase())
-  );
+  useEffect(() => {
+    setIsLoading(true);
+    const timeout = setTimeout(() => {
+      const result = appsData.filter((item) =>
+        item.title.toLowerCase().includes(searchVal.toLowerCase())
+      );
+      setFilteredData(result);
+      setIsLoading(false);
+    }, 400);
+
+    return () => clearTimeout(timeout);
+  }, [appsData, searchVal]);
 
   const handleReset = () => {
     setSearchVal("");
+    setFilteredData(appsData);
   };
 
   return (
@@ -40,7 +52,13 @@ const AllApps = () => {
           />
         </label>
       </div>
-      {filteredData.length !== 0 ? (
+      {isLoading ? (
+        <div className="flex justify-center items-center h-screen">
+          <h1 className="text-2xl text-[#627382] uppercase tracking-[.4em] font-extrabold">
+            Loading
+          </h1>
+        </div>
+      ) : filteredData.length !== 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
           {filteredData.map((app) => (
             <Link key={app.id} to={`/apps/${app.id}`}>
