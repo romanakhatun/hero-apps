@@ -1,6 +1,5 @@
 import { FiDownload } from "react-icons/fi";
 import { IoIosStar } from "react-icons/io";
-import { ToastContainer } from "react-toastify";
 
 const InstallCard = ({ app, handleRemoveInstApps }) => {
   const { image, title, ratingAvg, downloads, size, id } = app;
@@ -28,7 +27,7 @@ const InstallCard = ({ app, handleRemoveInstApps }) => {
           </div>
         </div>
       </div>
-      <ToastContainer position="top-right" autoClose={2000} />
+
       <button
         onClick={() => handleRemoveInstApps(id, title)}
         className="btn border-0 bg-[#00D390] text-white mt-5 md:mt-0"

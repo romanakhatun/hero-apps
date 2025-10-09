@@ -25,8 +25,6 @@ const addToStoreApps = (id, title) => {
 };
 
 const removeStoreApps = (id, title) => {
-  console.log(title);
-
   const appsData = getStoreApps();
   const updatedData = appsData.filter((appId) => parseInt(appId) !== id);
   toast.success(`${title} Uninstalled Successfully`);

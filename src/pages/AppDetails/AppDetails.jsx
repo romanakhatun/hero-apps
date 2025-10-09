@@ -4,11 +4,7 @@ import AppError from "../AppError/AppError";
 import downloadIcon from "../../assets/download.png";
 import reviewIcon from "../../assets/review.png";
 import ratingsIcon from "../../assets/ratings.png";
-import {
-  addToStoreApps,
-  getStoreApps,
-} from "../../utilities/installedAppsToLS";
-import { ToastContainer } from "react-toastify";
+import { addToStoreApps, getStoreApps } from "../../utilities/instAppsToLS";
 import { useState } from "react";
 
 const AppDetails = () => {
@@ -74,7 +70,6 @@ const AppDetails = () => {
               <h1 className="text-[40px] font-extrabold ">{reviews}</h1>
             </div>
           </div>
-          <ToastContainer position="top-right" autoClose={2000} />
           <button
             disabled={installedApps.includes(appId)}
             onClick={() => handleInstall(id, title)}

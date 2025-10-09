@@ -1,6 +1,7 @@
 import { Outlet, useNavigation } from "react-router";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
+import { ToastContainer } from "react-toastify";
 
 const Root = () => {
   const navigation = useNavigation();
@@ -9,6 +10,7 @@ const Root = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
+
       {isLoading && (
         <div className="fixed inset-0 bg-[#d9d9d9] flex items-center justify-center z-50">
           <h1 className="text-2xl text-[#627382] uppercase tracking-[.4em] font-extrabold">
@@ -16,6 +18,8 @@ const Root = () => {
           </h1>
         </div>
       )}
+
+      <ToastContainer position="top-right" autoClose={2000} />
 
       <main className="flex-grow">
         <Outlet />

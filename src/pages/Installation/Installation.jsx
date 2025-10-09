@@ -1,10 +1,7 @@
 import { useLoaderData } from "react-router";
 import InstallCard from "../../components/InstallCard/InstallCard";
 import { useEffect, useState } from "react";
-import {
-  getStoreApps,
-  removeStoreApps,
-} from "../../utilities/installedAppsToLS";
+import { getStoreApps, removeStoreApps } from "../../utilities/instAppsToLS";
 
 const Installation = () => {
   const [instApps, setInstApps] = useState([]);
@@ -21,7 +18,6 @@ const Installation = () => {
 
   const handleSort = (order) => {
     setSortOrder(order);
-
     let sortedApps = [...instApps];
 
     if (order === "low-high") {
