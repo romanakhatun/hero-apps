@@ -1,19 +1,11 @@
 import { useLoaderData, useParams } from "react-router";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  Legend,
-  CartesianGrid,
-  ResponsiveContainer,
-} from "recharts";
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import AppError from "../AppError/AppError";
 import downloadIcon from "../../assets/download.png";
 import reviewIcon from "../../assets/review.png";
 import ratingsIcon from "../../assets/ratings.png";
-import { addToStoreApps } from "../../components/utilities/installedAppsToLS";
+import { addToStoreApps } from "../../utilities/installedAppsToLS";
+import { ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -36,9 +28,8 @@ const AppDetails = () => {
     ratings,
   } = app || {};
 
-  const handleInstall = (id) => {
-    addToStoreApps(id);
-    console.log(id);
+  const handleInstall = (id, title) => {
+    addToStoreApps(id, title);
   };
 
   return (
@@ -75,8 +66,9 @@ const AppDetails = () => {
               <h1 className="text-[40px] font-extrabold ">{reviews}</h1>
             </div>
           </div>
+          <ToastContainer position="top-right" autoClose={2000} />
           <button
-            onClick={() => handleInstall(id)}
+            onClick={() => handleInstall(id, title)}
             className="btn border-0 bg-[#00D390] text-white"
           >
             Install Now ({size} MB)

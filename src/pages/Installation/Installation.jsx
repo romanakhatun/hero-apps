@@ -1,7 +1,10 @@
 import { useLoaderData } from "react-router";
 import InstallCard from "../../components/InstallCard/InstallCard";
 import { useEffect, useState } from "react";
-import { getStoreApps } from "../../components/utilities/installedAppsToLS";
+import {
+  getStoreApps,
+  removeStoreApps,
+} from "../../utilities/installedAppsToLS";
 
 const Installation = () => {
   const [instApps, setInstApps] = useState([]);
@@ -28,6 +31,11 @@ const Installation = () => {
       sortedApps.sort((a, b) => b.downloads - a.downloads);
     }
     setInstApps(sortedApps);
+  };
+
+  const handleRemoveInstApps = (id, title) => {
+    removeStoreApps(id, title);
+    setInstApps((prevApps) => prevApps.filter((app) => app.id !== id));
   };
 
   return (
@@ -61,7 +69,11 @@ const Installation = () => {
       </div>
       <div className="space-y-4">
         {instApps.map((app) => (
-          <InstallCard app={app} key={app.id} />
+          <InstallCard
+            app={app}
+            key={app.id}
+            handleRemoveInstApps={handleRemoveInstApps}
+          />
         ))}
       </div>
     </section>

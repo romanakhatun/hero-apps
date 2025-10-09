@@ -4,7 +4,6 @@ import Home from "../pages/Home/Home";
 import Error from "../pages/Error/Error";
 import AppDetails from "../pages/AppDetails/AppDetails";
 import Apps from "../pages/Apps/Apps";
-import AppError from "../pages/AppError/AppError";
 import Installation from "../pages/Installation/Installation";
 
 export const router = createBrowserRouter([
