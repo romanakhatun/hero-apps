@@ -3,7 +3,7 @@ import { Link, useLoaderData } from "react-router";
 import { CiSearch } from "react-icons/ci";
 import AppCard from "../../components/AppCard/AppCard";
 
-const Apps = () => {
+const AllApps = () => {
   const appsData = useLoaderData();
   const [searchVal, setSearchVal] = useState("");
 
@@ -65,4 +65,4 @@ const Apps = () => {
   );
 };
 
-export default Apps;
+export default AllApps;

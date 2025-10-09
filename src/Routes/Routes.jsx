@@ -3,8 +3,8 @@ import Root from "../pages/Root/Root";
 import Home from "../pages/Home/Home";
 import Error from "../pages/Error/Error";
 import AppDetails from "../pages/AppDetails/AppDetails";
-import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installation/Installation";
+import AllApps from "../pages/AllApps/AllApps";
 
 export const router = createBrowserRouter([
   {
@@ -14,12 +14,13 @@ export const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
+        path: "/",
         loader: () => fetch("/appsData.json"),
       },
       {
         path: "/apps",
         loader: () => fetch("/appsData.json"),
-        Component: Apps,
+        Component: AllApps,
       },
       {
         path: "apps/:id",
