@@ -5,7 +5,6 @@ import TrendingApps from "../../components/TrendingApps/TrendingApps";
 
 const Home = () => {
   const appsData = useLoaderData();
-  console.log(appsData);
 
   return (
     <div>

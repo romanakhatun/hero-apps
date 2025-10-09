@@ -4,10 +4,17 @@ import AppError from "../AppError/AppError";
 import downloadIcon from "../../assets/download.png";
 import reviewIcon from "../../assets/review.png";
 import ratingsIcon from "../../assets/ratings.png";
-import { addToStoreApps } from "../../utilities/installedAppsToLS";
+import {
+  addToStoreApps,
+  getStoreApps,
+} from "../../utilities/installedAppsToLS";
 import { ToastContainer } from "react-toastify";
+import { useState } from "react";
 
 const AppDetails = () => {
+  const [installedApps, setInstalledApps] = useState(
+    getStoreApps().map((id) => parseInt(id))
+  );
   const { id } = useParams();
   const appId = parseInt(id);
   const appData = useLoaderData();
@@ -30,6 +37,7 @@ const AppDetails = () => {
 
   const handleInstall = (id, title) => {
     addToStoreApps(id, title);
+    setInstalledApps(getStoreApps().map((id) => parseInt(id)));
   };
 
   return (
@@ -68,10 +76,13 @@ const AppDetails = () => {
           </div>
           <ToastContainer position="top-right" autoClose={2000} />
           <button
+            disabled={installedApps.includes(appId)}
             onClick={() => handleInstall(id, title)}
             className="btn border-0 bg-[#00D390] text-white"
           >
-            Install Now ({size} MB)
+            {installedApps.includes(appId)
+              ? "Installed"
+              : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

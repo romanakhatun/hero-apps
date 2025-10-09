@@ -1,9 +1,16 @@
-import { CiSearch } from "react-icons/ci";
+import { useState } from "react";
 import { Link, useLoaderData } from "react-router";
+import { CiSearch } from "react-icons/ci";
 import AppCard from "../../components/AppCard/AppCard";
 
 const Apps = () => {
   const appsData = useLoaderData();
+  const [searchVal, setSearchVal] = useState("");
+
+  const filteredData = appsData.filter((item) =>
+    item.title.toLowerCase().includes(searchVal.toLowerCase())
+  );
+
   return (
     <section className="my-20 px-5 max-w-[1420px] mx-auto">
       <div className="text-center">
@@ -16,20 +23,21 @@ const Apps = () => {
       </div>
       <div className="flex justify-between items-center">
         <h2 className="text-[#001931] font-bold text-2xl">
-          ({appsData.length}) Apps Found
+          ({filteredData.length}) Apps Found
         </h2>
         <label className="input flex items-center bg-transparent text-[#627382] text-[16px]">
           <CiSearch className="text-xl" />
           <input
             type="search"
-            required
             placeholder="Search Apps"
             className="focus:outline-none"
+            value={searchVal}
+            onChange={(e) => setSearchVal(e.target.value)}
           />
         </label>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
-        {appsData.map((app) => (
+        {filteredData.map((app) => (
           <Link key={app.id} to={`/apps/${app.id}`}>
             <AppCard app={app} />
           </Link>
