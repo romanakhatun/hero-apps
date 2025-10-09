@@ -6,7 +6,7 @@ const InstallCard = ({ app, handleRemoveInstApps }) => {
 
   return (
     <div className="bg-white flex flex-col md:flex-row justify-between items-center py-6 px-4 rounded-sm">
-      <div className="flex gap-4 flex-col md:flex-row">
+      <div className="flex items-center gap-4 flex-col md:flex-row">
         <figure>
           <img className="h-[80px] rounded-lg" src={image} alt={title} />
         </figure>
@@ -14,7 +14,7 @@ const InstallCard = ({ app, handleRemoveInstApps }) => {
           <h3 className="text-[#001931] text-xl">
             Forest: Focus for Productivity
           </h3>
-          <div className="flex gap-4 mt-4">
+          <div className="flex justify-center md:justify-normal gap-4 mt-4">
             <div className="flex items-center text-[#00D390] gap-1 font-medium">
               <FiDownload />
               {downloads}M
