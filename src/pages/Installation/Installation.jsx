@@ -1,7 +1,35 @@
-import React from "react";
+import { useLoaderData } from "react-router";
 import InstallCard from "../../components/InstallCard/InstallCard";
+import { useEffect, useState } from "react";
+import { getStoreApps } from "../../components/utilities/installedAppsToLS";
 
 const Installation = () => {
+  const [instApps, setInstApps] = useState([]);
+  const [sortOrder, setSortOrder] = useState("");
+
+  const data = useLoaderData();
+
+  useEffect(() => {
+    const installedApps = getStoreApps();
+    const cInstApps = installedApps.map((id) => parseInt(id));
+    const myInstApps = data.filter((book) => cInstApps.includes(book.id));
+    setInstApps(myInstApps);
+  }, [data]);
+
+  const handleSort = (order) => {
+    setSortOrder(order);
+
+    let sortedApps = [...instApps];
+
+    if (order === "low-high") {
+      sortedApps.sort((a, b) => a.downloads - b.downloads);
+    }
+    if (order === "high-low") {
+      sortedApps.sort((a, b) => b.downloads - a.downloads);
+    }
+    setInstApps(sortedApps);
+  };
+
   return (
     <section className="my-20 px-5 max-w-[1420px] mx-auto">
       <div className="text-center">
@@ -13,22 +41,28 @@ const Installation = () => {
         </p>
       </div>
       <div className="flex justify-between items-center mb-[21px]">
-        <h2 className="text-[#001931] font-bold text-2xl"> Apps Found</h2>
-        <details className="dropdown dropdown-end text-[#627382] bg-transparent">
-          <summary className="btn m-1">Sort By Size</summary>
-          <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Item 2</a>
-            </li>
-          </ul>
-        </details>
+        <h2 className="text-[#001931] font-bold text-2xl">
+          {instApps.length} Apps Found
+        </h2>
+        <div className="flex items-center space-x-2">
+          <select
+            id="sort"
+            className="border border-[#627382] rounded-lg px-3 py-2 focus:outline-none  text-gray-700"
+            value={sortOrder}
+            onChange={(e) => handleSort(e.target.value)}
+          >
+            <option value="" disabled>
+              Sort by
+            </option>
+            <option value="low-high">Low - High</option>
+            <option value="high-low">High - Low</option>
+          </select>
+        </div>
       </div>
       <div className="space-y-4">
-        <InstallCard />
-        <InstallCard />
+        {instApps.map((app) => (
+          <InstallCard app={app} key={app.id} />
+        ))}
       </div>
     </section>
   );

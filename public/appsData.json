@@ -8,7 +8,7 @@
     "size": 32,
     "reviews": "1.2M",
     "ratingAvg": 5.0,
-    "downloads": "1M",
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 3000 },
@@ -26,7 +26,7 @@
     "size": 18,
     "reviews": "12M",
     "ratingAvg": 4.6,
-    "downloads": "5M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1200 },
@@ -44,7 +44,7 @@
     "size": 45,
     "reviews": "14M",
     "ratingAvg": 4.7,
-    "downloads": "15M",
+    "downloads": 15,
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 3000 },
@@ -60,9 +60,9 @@
     "id": 4,
     "description": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine. By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day.",
     "size": 27,
-    "reviews": "28M",
+    "reviews": 28,
     "ratingAvg": 4.5,
-    "downloads": "200K",
+    "downloads": 20,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -78,9 +78,9 @@
     "id": 5,
     "description": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine. By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day.",
     "size": 30,
-    "reviews": "3.2M",
+    "reviews": 3.2,
     "ratingAvg": 4.4,
-    "downloads": "300K",
+    "downloads": 30,
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1300 },
@@ -98,7 +98,7 @@
     "size": 22,
     "reviews": "10K",
     "ratingAvg": 4.6,
-    "downloads": "200K",
+    "downloads": 20,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 700 },
@@ -116,7 +116,7 @@
     "size": 90,
     "reviews": "900K",
     "ratingAvg": 4.8,
-    "downloads": "30M",
+    "downloads": 1.5,
     "ratings": [
       { "name": "1 star", "count": 3200 },
       { "name": "2 star", "count": 4000 },
@@ -134,7 +134,7 @@
     "size": 35,
     "reviews": "880K",
     "ratingAvg": 4.4,
-    "downloads": "1.7M",
+    "downloads": 1.7,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 600 },
@@ -152,7 +152,7 @@
     "size": 40,
     "reviews": "500k",
     "ratingAvg": 4.3,
-    "downloads": "1.5M",
+    "downloads": 1.4,
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -171,7 +171,7 @@
     "size": 31,
     "reviews": "9M",
     "ratingAvg": 4.6,
-    "downloads": "2.2M",
+    "downloads": 2.2,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 600 },
@@ -189,7 +189,7 @@
     "size": 25,
     "reviews": "1M",
     "ratingAvg": 4.5,
-    "downloads": "4M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 800 },
@@ -207,7 +207,7 @@
     "size": 38,
     "reviews": "900K",
     "ratingAvg": 4.4,
-    "downloads": "2.5M",
+    "downloads": 2.5,
     "ratings": [
       { "name": "1 star", "count": 350 },
       { "name": "2 star", "count": 600 },
@@ -225,7 +225,7 @@
     "size": 14,
     "reviews": "400K",
     "ratingAvg": 4.2,
-    "downloads": "800K",
+    "downloads": 3.2,
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 200 },
@@ -243,7 +243,7 @@
     "size": 47,
     "reviews": "500K",
     "ratingAvg": 4.5,
-    "downloads": "1.4M",
+    "downloads": 1.1,
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 350 },
@@ -261,7 +261,7 @@
     "size": 24,
     "reviews": "600k",
     "ratingAvg": 4.6,
-    "downloads": "25M",
+    "downloads": 2.1,
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -279,7 +279,7 @@
     "size": 29,
     "reviews": "420k",
     "ratingAvg": 4.6,
-    "downloads": "900K",
+    "downloads": 1.8,
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 200 },
@@ -297,7 +297,7 @@
     "size": 36,
     "reviews": "890K",
     "ratingAvg": 4.7,
-    "downloads": "1.8M",
+    "downloads": 1.9,
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 400 },

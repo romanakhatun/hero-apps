@@ -13,6 +13,7 @@ import AppError from "../AppError/AppError";
 import downloadIcon from "../../assets/download.png";
 import reviewIcon from "../../assets/review.png";
 import ratingsIcon from "../../assets/ratings.png";
+import { addToStoreApps } from "../../components/utilities/installedAppsToLS";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -33,7 +34,12 @@ const AppDetails = () => {
     size,
     companyName,
     ratings,
-  } = app;
+  } = app || {};
+
+  const handleInstall = (id) => {
+    addToStoreApps(id);
+    console.log(id);
+  };
 
   return (
     <section className="my-20 px-5 max-w-[1420px] mx-auto">
@@ -56,7 +62,7 @@ const AppDetails = () => {
             <div>
               <img src={downloadIcon} alt="Download" />
               <p className="my-2 text-[#001931] opacity-80">Downloads </p>
-              <h1 className="text-[40px] font-extrabold ">{downloads}</h1>
+              <h1 className="text-[40px] font-extrabold ">{downloads}M</h1>
             </div>
             <div>
               <img src={ratingsIcon} alt="Ratings" />
@@ -69,7 +75,10 @@ const AppDetails = () => {
               <h1 className="text-[40px] font-extrabold ">{reviews}</h1>
             </div>
           </div>
-          <button className="btn border-0 bg-[#00D390] text-white">
+          <button
+            onClick={() => handleInstall(id)}
+            className="btn border-0 bg-[#00D390] text-white"
+          >
             Install Now ({size} MB)
           </button>
         </div>

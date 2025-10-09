@@ -16,7 +16,7 @@ const AppCard = ({ app }) => {
       <div className="flex justify-between items-center">
         <div className="flex items-center text-[#00D390] bg-[#F1F5E8] py-[6px] px-[10px] rounded gap-1 font-medium">
           <FiDownload />
-          {downloads}
+          {downloads}M
         </div>
         <div className="flex items-center text-[#FF8811] bg-[#FFF0E1] py-[6px] px-[10px] rounded gap-1 font-medium">
           <IoIosStar />
